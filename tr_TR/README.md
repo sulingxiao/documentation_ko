@@ -1,1 +1,0 @@
-Turkish Introductory White Paper
