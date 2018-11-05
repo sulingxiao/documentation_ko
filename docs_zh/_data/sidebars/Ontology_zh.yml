@@ -1,0 +1,61 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Ontology
+    output: web, pdf
+    folderitems:
+
+    - title: 安装
+      url: /install_zh.html
+      output: web, pdf
+      
+    - title: Hello World
+      url: /The_Hello_World_Ontology_zh.html
+      output: web, pdf
+
+    - title: Cli使用说明
+      url: /cli_user_guide_zh.html
+      output: web, pdf
+
+      subfolders:
+      - title: API  接口说明 
+        output: web
+        subfolderitems:
+
+        - title: RPC API
+          url: /rpc_api_zh.html
+          output: web
+
+        - title: Restful API
+          url: /restful_api_zh.html
+          output: web
+
+        - title: Websocket API
+          url: /websocket_api_zh.html
+          output: web
+
+    - title: 共识机制说明
+      url: /vbft_intro_zh.html
+      output: web, pdf
+
+    - title: 签名服务器使用说明
+      url: /sigsvr_zh.html
+      output: web, pdf

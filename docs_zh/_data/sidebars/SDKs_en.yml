@@ -1,0 +1,113 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: SDKs
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /ontology_overview_sdks_en.html
+      output: web, pdf
+    - title: Wallet File Specification
+      url: /Wallet_File_Specification_en.html
+      output: web, pdf
+      subfolders:
+      - title: Java SDK
+        output: web
+        subfolderitems:
+
+        - title:  Introduction
+          url: /ontology_java_sdk_en.html
+          output: web
+
+        - title:  Getting Started
+          url: /ontology_java_sdk_get_start_en.html
+          output: web
+
+        - title: Digital Asset
+          url: /ontology_java_sdk_asset_en.html
+          output: web
+
+        - title: Digital Identity
+          url: /ontology_java_sdk_identity_claim_en.html
+          output: web
+
+        - title: Smart Contract
+          url: /ontology_java_sdk_smartcontract_en.html
+          output: web
+
+        - title: Authority Management
+          url: /ontology_java_sdk_auth_en.html
+          output: web
+
+        - title: Claim and Attestation
+          url: /ontology_java_sdk_attest_en.html
+          output: web
+
+        - title: BlockChain Interaction
+          url: /ontology_java_sdk_basic_en.html
+          output: web
+
+        - title:  Interfaces
+          url: /ontology_java_sdk_interface_en.html
+          output: web
+
+        - title: Error Codes
+          url: /ontology_java_sdk_errorcode_en.html
+          output: web
+        - title: API reference
+          external_url: https://apidoc.ont.io/javasdk/
+          output: web
+
+      - title: TypeScript SDK
+        output: web
+        subfolderitems:
+
+        - title:  Introduction
+          url: /ontology_ts_sdk_en.html
+          output: web
+
+        - title: Digital Identity
+          url: /ontology_ts_sdk_identity_claim_en.html
+          output: web
+
+        - title: Digital Asset
+          url: /ontology_ts_sdk_asset_en.html
+          output: web
+
+        - title: Error Codes
+          url: /ontology_ts_sdk_errorcode_en.html
+          output: web
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/tssdk/
+          output: web
+
+      - title: Python SDK
+        output: web
+        subfolderitems:
+
+        - title:  Introduction
+          url: /ontology_python_sdk_en.html
+          output: web
+        - title: API reference
+          external_url: https://apidoc.ont.io/pythonsdk/
+          output: web

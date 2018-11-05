@@ -1,0 +1,57 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Ontology
+    output: web, pdf
+    folderitems:
+
+    - title: Install
+      url: /install_en.html
+      output: web, pdf
+
+    - title: Cli User Guide
+      url: /cli_user_guide_en.html
+      output: web, pdf
+
+      subfolders:
+      - title: API
+        output: web
+        subfolderitems:
+
+        - title: RPC API
+          url: /rpc_api_en.html
+          output: web
+
+        - title: Restful API
+          url: /restful_api_en.html
+          output: web
+
+        - title: Websocket API
+          url: /websocket_api_en.html
+          output: web
+
+    - title: Consensus
+      url: /vbft_intro_en.html
+      output: web, pdf
+
+    - title: Signature Server Tutorials
+      url: /sigsvr_en.html
+      output: web, pdf

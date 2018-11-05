@@ -1,0 +1,64 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: DAPP
+    output: web, pdf
+    folderitems:
+
+    - title: Tutorial
+      url: /ontology_dapp_dev_tutorial_en.html
+      output: web, pdf
+    - title: dAPI
+      url: /ontology_dapp_dapi_en.html
+      output: web, pdf
+      subfolders:
+
+      - title: Smart Contract
+        output: web, pdf
+        subfolderitems:
+
+        - title: Introduction
+          url: /Introduction_of_Ontology_Smart_Contract_en.html
+          output: web, pdf
+
+        - title: SmartX Tutorial
+          url: /SmartX_Tutorial_en.html
+          output: web, pdf
+
+        - title: Hello world
+          url: /The_Hello_World_Contract_en.html
+          output: web, pdf
+
+        - title: Smart Contract Deployment
+          url: /Smart_Contract_Deployment_en.html
+          output: web, pdf
+
+        - title: Smart Contract Invocation
+          url: /Smart_Contract_Invocation_en.html
+          output: web, pdf
+
+        - title: Authority management
+          url: /ontology_java_sdk_auth_en.html
+          output: web, pdf
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/smartcontract/
+          output: web, pdf

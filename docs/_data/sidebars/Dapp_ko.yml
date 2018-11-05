@@ -1,0 +1,68 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: DAPP
+    output: web, pdf
+    folderitems:
+
+    - title: 개발 가이드
+      url: /ontology_dapp_dev_tutorial_ko.html
+      output: web, pdf
+    - title: dAPI
+      url: /ontology_dapp_dapi_ko.html
+      output: web, pdf
+      subfolders:
+      
+      - title: 스마트 컨트랙트 
+        output: web, pdf
+        subfolderitems:
+
+        - title: 온톨로지 스마트 컨트랙트 소개
+          url: /Introduction_of_Ontology_Smart_Contract_ko.html
+          output: web, pdf
+
+        - title: Ontology CLI와 스마트 컨트랙트의 상호작용
+          url: /Ontology_CLI_interact_with_smart_contract_ko.html
+          output: web, pdf
+
+        - title: SmartX 강좌
+          url: /SmartX_Tutorial_ko.html
+          output: web, pdf
+
+        - title: Hello World 계약
+          url: /The_Hello_World_Contract_ko.html
+          output: web, pdf
+
+        - title: 스마트 컨트랙트 배치
+          url: /Smart_Contract_Deployment_ko.html
+          output: web, pdf
+
+        - title: 스마트 컨트랙트 호출
+          url: /Smart_Contract_Invocation_ko.html
+          output: web, pdf
+
+        - title: 권한관리
+          url: /ontology_java_sdk_auth_ko.html
+          output: web, pdf
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/smartcontract/
+          output: web

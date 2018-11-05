@@ -1,0 +1,115 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: SDKs
+    output: web, pdf
+    folderitems:
+
+    - title: 전체설명
+      url: /ontology_overview_sdks_ko.html
+      output: web, pdf
+    - title: 지갑규정
+      url: /Wallet_File_Specification_ko.html
+      output: web, pdf
+      subfolders:
+      - title: Java SDK
+        output: web
+        subfolderitems:
+
+        - title: 소개
+          url: /ontology_java_sdk_ko.html
+          output: web
+
+        - title:  사용설명
+          url: /ontology_java_sdk_get_start_ko.html
+          output: web
+
+        - title: 디지털자산
+          url: /ontology_java_sdk_asset_ko.html
+          output: web
+
+        - title: 디지털신원
+          url: /ontology_java_sdk_identity_claim_ko.html
+          output: web
+
+        - title: 스마트컨트랙트
+          url: /ontology_java_sdk_smartcontract_ko.html
+          output: web
+
+        - title: 권한관리
+          url: /ontology_java_sdk_auth_ko.html
+          output: web
+
+        - title: 신뢰성명 및 증명저장
+          url: /ontology_java_sdk_attest_ko.html
+          output: web
+
+        - title: 블록체인 상호작용의의 기본 작동
+          url: /ontology_java_sdk_basic_ko.html
+          output: web
+
+        - title:  인터페이스
+          url: /ontology_java_sdk_interface_ko.html
+          output: web
+
+        - title: 에러 코드
+          url: /ontology_java_sdk_errorcode_ko.html
+          output: web
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/javasdk/
+          output: web
+
+      - title: TypeScript SDK
+        output: web
+        subfolderitems:
+
+        - title: 소개
+          url: /ontology_ts_sdk_ko.html
+          output: web
+
+        - title: 디지털신분과 신뢰성명
+          url: /ontology_ts_sdk_identity_claim_ko.html
+          output: web
+
+        - title: 디지털자산관리
+          url: /ontology_ts_sdk_asset_ko.html
+          output: web
+
+        - title: 오류코드
+          url: /ontology_ts_sdk_errorcode_ko.html
+          output: web
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/tssdk/
+          output: web
+
+      - title: Python SDK
+        output: web
+        subfolderitems:
+
+        - title:  소개
+          url: /ontology_python_sdk_en.html
+          output: web
+
+        - title: API reference
+          external_url: https://apidoc.ont.io/pythonsdk/
+          output: web
